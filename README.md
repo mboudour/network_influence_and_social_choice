@@ -12,18 +12,18 @@ Run every script from the repository root, e.g. `python code/p_alpha.py`. Output
 | `code/proof_check.py` | Numerical check of the representation p(alpha) = 1/4 - 3/4 P(\|L + (alpha/2) V\| < log 2) |
 | `code/step2_check.py` | Dictatorship and cycle probabilities for independent Pareto weights |
 | `code/figdata.py` | Data for the dictatorship and cycle figures |
-| `code/manip.py` | Ranked pairs and the probability of a manipulable profile for k agents (Table 4) |
+| `code/manip.py` | Ranked pairs and the probability of a manipulable profile for k agents (Table 2) |
 | `code/mu_exact.py` | Exact manipulation probability for k = 10^3, 10^4, 10^5 using the localisation lemma |
-| `code/q_certified.py`, `code/q_lepage_bounds.py` | Bounds for the limit q(alpha) from the LePage series, with sensitivity to series length and remainder |
-| `code/verify_example.py` | The five-agent manipulation used in the positivity proof |
+| `code/q_certified.py`, `code/q_lepage_bounds.py` | Bounds for the limit q(alpha) from the LePage series, with sensitivity to series length and remainder (Figure 3) |
+| `code/verify_example.py` | The five-agent manipulation used in the positivity proof of Theorem 15(iii) |
 
 ## Network weights
 
 | Script | Result |
 |---|---|
-| `code/green_degree.py` | Influence weights against degree on a configuration model (Lemma 7, Proposition 8, weight figure) |
-| `code/limits.py` | Dictatorship on configuration models, jointly clamped versus independent weights (Table 2) |
-| `code/scalefree.py` | Dictatorship and cycles on Erdos-Renyi and Chung-Lu graphs (Table 3) |
+| `code/green_degree.py` | Influence weights against degree on a configuration model (Lemma 8, Proposition 9, Figure 4) |
+| `code/limits.py` | Dictatorship on configuration models, jointly clamped versus independent weights (Table 3) |
+| `code/scalefree.py` | Dictatorship and cycles on Erdos-Renyi and Chung-Lu graphs (Table 4) |
 
 ## Exploratory runs outside the proved regime
 
